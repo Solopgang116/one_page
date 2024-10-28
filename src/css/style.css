@@ -1,0 +1,305 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background: url('/src/img/main_bg.jpeg') center center / cover no-repeat;
+  min-height: 800px;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.logo {
+  padding-top: 22px;
+  margin: 0 auto;
+}
+
+.logo .logo__img {
+  display: block;
+  margin: 0 auto;
+}
+
+.logo .logo__text {
+  margin-top: 13px;
+  font-size: 16px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 19px;
+}
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.title .title__sub {
+  color: rgb(249, 191, 59);
+  font-size: 41px;
+  line-height: 41px;
+  text-align: center;
+  margin-top: 52px;
+}
+
+.title .title__sup {
+  color: rgb(255, 255, 255);
+  font-size: 80px;
+  line-height: 80px;
+}
+
+.title__text {
+  color: rgb(255, 255, 255);
+
+  font-size: 21px;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.title__text .span {
+  text-transform: uppercase;
+  color: rgb(249, 191, 59);
+}
+
+/* whtat title section 3 */
+
+.title__what {
+  /* What is online radio */
+  color: rgb(249, 191, 59);
+  font-size: 30px;
+}
+
+.title__training {
+  /* After completing the training you will be able to! */
+  color: rgb(239, 239, 239);
+  font-size: 30px;
+  line-height: 35px;
+  padding-top: 80px;
+}
+
+.btn {
+  min-width: 315px;
+  min-height: 72px;
+  text-align: center;
+  border-radius: 4px;
+  background: linear-gradient(0deg, rgb(255, 77, 0), rgb(254, 176, 93) 100%);
+  display: block;
+  margin: 0 auto;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 21px;
+  line-height: 25px;
+  cursor: pointer;
+}
+
+.btn__main {
+  margin-top: 75px;
+}
+
+.btn__gift {
+  margin-top: 60px;
+  border: none;
+}
+
+.more {
+  text-align: center;
+}
+
+.more__link {
+  display: block;
+  margin-top: 75px;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.more__icon {
+  margin-top: 15px;
+}
+
+/* вторая секция */
+
+.intensive {
+  min-height: 592px;
+}
+
+.wrapper {
+  margin-top: 42px;
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+}
+
+.wrapper .box {
+  width: 360px;
+}
+
+.label {
+  /* What awaits you in our intensive? */
+  text-align: center;
+  margin-top: 80px;
+  color: rgb(37, 37, 37);
+  font-size: 30px;
+  line-height: 35px;
+  text-transform: uppercase;
+}
+
+.label__text {
+  margin-top: 36px;
+  color: rgb(74, 74, 74);
+  font-size: 23px;
+  line-height: 27px;
+  text-align: center;
+}
+
+/* section 3 : What */
+
+.what {
+  min-height: 564px;
+  background-color: black;
+  background-image: url('/src/img/s3_bg.jpeg');
+  background-repeat: no-repeat;
+  background-size: 615px 351px;
+  background-position: 83px 191px;
+}
+
+.what__box {
+  position: absolute;
+  text-align: right;
+  top: 100px;
+  right: 0;
+}
+
+.what__info {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  line-height: 19px;
+  width: 750px;
+  margin-top: 16px;
+}
+
+/* section 4 - training */
+
+.training {
+  min-height: 551px;
+  background-color: black;
+  background-image: url('/src/img/s4_bg.jpeg');
+  background-size: auto 450px;
+  background-repeat: no-repeat;
+}
+
+.training__wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.training__wrapper-item {
+  padding-top: 59px;
+  width: 224px;
+}
+
+.training__wrapper-around {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(249, 191, 59);
+  border-radius: 100%;
+  width: 118px;
+  height: 118px;
+  margin: 0 auto;
+}
+
+.training__wrapper-img {
+}
+
+.training__wrapper-text {
+  margin-top: 20px;
+  color: rgb(239, 239, 239);
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+
+.gift {
+  min-height: 613px;
+}
+
+.gift__logo {
+  padding: 82px;
+  display: block;
+  margin: 0 auto;
+}
+
+.gift__text {
+  /* Text */
+  color: rgb(37, 37, 37);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 150%;
+  text-align: center;
+}
+
+.webinar {
+  min-height: 536px;
+  background: rgb(15, 11, 11);
+}
+
+.webinar__img {
+  display: block;
+  padding-top: 58px;
+  margin: 0 auto;
+}
+
+.webinar__label {
+  color: rgb(255, 255, 255);
+  margin-top: 40px;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.webinar__info {
+  color: rgb(249, 191, 59);
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.webinar__text {
+  color: rgb(239, 239, 239);
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer {
+  min-height: 165px;
+  background: rgb(26, 26, 26);
+}
+
+.footer__info a {
+  display: block;
+  padding-top: 58px;
+  color: rgb(136, 136, 136);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 150%;
+  text-align: center;
+}
